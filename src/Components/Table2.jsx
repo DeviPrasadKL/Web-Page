@@ -43,7 +43,7 @@ export default function Table2() {
                 <div style={{ display: 'flex', height: '28px' }} >
                     <div className="button" onClick={() => { setOpenFilter2(!openFilter2) }}>
                         <img src={filter} alt="" />
-                        <h3>Filter</h3>
+                        <h3 style={{ fontWeight:'600' }}>Filter</h3>
                     </div>
                     <div className="filter2" style={{ display: openFilter2 ? "flex" : "none" }}>
                         <h2>Branch</h2>

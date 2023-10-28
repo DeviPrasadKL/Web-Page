@@ -22,10 +22,10 @@ export default function Content() {
                     <div style={{ display: 'flex', height: '28px' }} >
                         <div className="button" style={{}}>
                             <img src={filter} alt="" />
-                            <h3>Filter</h3>
+                            <h3 style={{ fontWeight:'600' }}>Filter</h3>
                         </div>
                         <div className="button" onClick={openOptions}>
-                            <h3  >Today</h3>
+                            <h3 >Today</h3>
                             <img src={arrowDown} alt="" />
                         </div>
                         <div className='ab' style={{ display: open ? "grid" : "none" }} >

@@ -30,7 +30,7 @@
       justify-content: start;
       align-items: center;
       height: 48.22px;
-      padding: 3rem 1rem;
+      padding: 2.5rem 1rem;
       color: #0A3A67;
       box-sizing: border-box;
   }
@@ -97,6 +97,10 @@
       border: 1px solid rgba(156, 133, 133, 0.15);
   }
 
+  .bg-white hr {
+      border: 1px solid rgba(10, 58, 103, 0.15);
+  }
+
   .card1 {
       margin-top: -8rem;
       margin-right: 1.5rem;
@@ -116,6 +120,12 @@
       font-weight: 500;
       margin-right: 10px;
       cursor: pointer;
+  }
+
+  .button h3{
+    color: rgba(10, 58, 103, 1);
+    font-weight: 400;
+    font-size: 14px;
   }
 
   #id::placeholder {
@@ -175,7 +185,7 @@
       content: "";
       position: relative;
       top: 8.5rem;
-      left: 0;
+      left: 2px;
       background: url("./BrownRing.png");
       height: 200px;
       width: 200px;

@@ -44,11 +44,11 @@ export default function Table1() {
                 <div style={{ display: 'flex', height: '28px' }} >
                     <div className="button" onClick={() => { setOpenFilter(!openFilter) }}>
                         <img src={filter} alt="" />
-                        <h3>Filter</h3>
+                        <h3 style={{ fontWeight:'600' }}>Filter</h3>
                     </div>
                     <div className="filter" style={{ display: openFilter ? "flex" : "none" }}>
                         <h2>PRM</h2>
-                        <select  className='blue'>
+                        <select className='blue'>
                             <option value=""><span>Select Option</span></option>
                         </select>
                     </div>
