@@ -36,14 +36,17 @@ export default function Content() {
                 <div className="flex" style={{ justifyContent: 'space-evenly' }}>
                     <div className="card">
                         <h3 style={{ color: 'rgba(85, 113, 83, 0.6)' }}>Total AUM</h3>
+                        < hr/>
                         <h1 style={{ color: 'rgba(85, 113, 83, 1)' }}>&#x20b9; 16.15Cr</h1>
                     </div>
                     <div className="card">
                         <h3 style={{ color: 'rgba(171, 136, 191, 0.6)' }}>Properties with valuation</h3>
+                        < hr/>
                         <h1 style={{ color: 'rgba(171, 136, 191, 1)' }}>880</h1>
                     </div>
                     <div className="card">
                         <h3 style={{ color: 'rgba(156, 133, 133, 0.6)' }}>Properties without valuation</h3>
+                        < hr/>
                         <h1 style={{ color: 'rgba(156, 133, 133, 1)' }}>350</h1>
                     </div>
                 </div>
@@ -61,6 +64,8 @@ export default function Content() {
                             <h4 style={{ color: 'rgba(198, 61, 47, 0.6)' }}>IA-AI-verified</h4>
                             <h4 style={{ color: 'rgba(198, 61, 47, 1)', fontSize: '23px' }}>256</h4>
                         </div>
+                        <br/>
+                            < hr/>
                         <div className="flex" style={{ justifyContent: 'space-between', paddingTop: '1rem' }}>
                             <h4 style={{ color: 'rgba(53, 162, 159, 0.6)' }}>PRM</h4>
                             <h4 style={{ color: 'rgba(53, 162, 159, 1)', fontSize: '23px' }}>624</h4>
