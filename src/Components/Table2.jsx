@@ -1,6 +1,7 @@
 import React from 'react';
 import filter from '../assets/Vectorfliter.png'
 import arrowDown from '../assets/Vector 633.png'
+import arrow from '../assets/Vectora.png'
 
 export default function Table2() {
     return (
@@ -25,30 +26,45 @@ export default function Table2() {
                 <h3>Nalini</h3>
                 <h3>1.15Cr</h3>
                 <h3>+ 1.04L</h3>
+                <div className='flex'>
+                    <img src={arrow} alt="" />
+                </div>
             </div>
             <hr />
             <div className='flex1'>
                 <h3>Rema</h3>
                 <h3>1.15Cr</h3>
                 <h3>+ 1.04L</h3>
+                <div className='flex'>
+                    <img src={arrow} alt="" />
+                </div>
             </div>
             <hr />
             <div className='flex1'>
                 <h3>Arun</h3>
                 <h3>1.15Cr</h3>
                 <h3>+ 1.04L</h3>
+                <div className='flex'>
+                    <img src={arrow} alt="" />
+                </div>
             </div>
             <hr />
             <div className='flex1'>
                 <h3>Nalini</h3>
                 <h3>1.15Cr</h3>
                 <h3>+ 1.04L</h3>
+                <div className='flex'>
+                    <img src={arrow} alt="" />
+                </div>
             </div>
             <hr />
             <div className='flex1'>
                 <h3>Nalini</h3>
                 <h3>1.15Cr</h3>
                 <h3>+ 1.04L</h3>
+                <div className='flex'>
+                    <img src={arrow} alt="" />
+                </div>
             </div>
         </div>
     );
