@@ -10,7 +10,7 @@ export default function Navbar() {
     return (
         <div className='bg-white' style={{ height: '56px', padding: '1rem 0rem', marginBottom:'1.5rem', boxShadow:'6px 6px 36px 0px rgba(0, 0, 0, 0.06)' }}>
             <div style={{ height: '54px', top: '30px', left: '30px', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'space-around' }}>
-                <div className='flex'>
+                <div className='flex '>
                     <img style={{ height: '50px', width: '50px', borderRadius: '50%', top: '32px', left: '30px', paddingRight: '1rem' }} src={logo} alt="" />
                     <div >
                         <h4 style={{ color: "#17538c60" }} >Partner code: IA234522</h4>
